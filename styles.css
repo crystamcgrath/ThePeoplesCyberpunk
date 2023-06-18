@@ -1,0 +1,456 @@
+/* colors, darkGrey #212121 lightGrey #323232 darkAqua #0D7377 lightAqua #0fa*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(111,109,109);
+    background: radial-gradient(circle, rgba(111,109,109,1) 0%, rgba(47,47,47,1) 100%);
+    font-family: 'Black Ops One';
+    color: #0fa;
+    margin: 0;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+}
+
+/* text */
+
+small {
+    letter-spacing: 1.5px;
+}
+
+h1.title {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff,0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa;
+}
+
+.armorDiv {
+    text-align: center;
+}
+
+.money {
+    font-family: 'Special Elite';
+}
+
+.neon {
+    color: #fff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+}
+
+.lessNeon {
+    color: #fff;
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 30px #0fa;
+    letter-spacing: 1px;
+}
+
+.whiteSEtext {
+    color: white;
+    font-family: 'Special Elite';
+}
+
+/* nav bar & buttons */
+nav.navbar {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.navTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#buttons {
+    transform: translateX(-300px);
+    max-width: 250px;
+}
+
+.ls-btn {
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    cursor: pointer;
+}
+
+.ls-btn:active {
+    scale: .98;
+}
+
+.gearBtn {
+    background-color: white;
+    margin:  35px 20px;
+    padding: 5px 8px;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    cursor: pointer;
+    color: inherit;
+    border: none;
+}
+
+.gearBtn:active {
+    scale: .98;
+}
+
+.plusBtn {
+    background-color: white;
+    padding: 5px 8px;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    cursor: pointer;
+    color: inherit;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#noDamageBtn {
+    background-color: rgb(96, 93, 93);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer; 
+    width: 150px; 
+    margin-top: 20px;
+}
+
+#noDamageBtn:active {
+    scale: .98;
+}
+
+.smPlusBtn {
+    width: 15px; 
+    height: 15px; 
+    display: flex;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+}
+
+.smPlusBtn:active {
+    scale: .9;
+}
+
+.traitsBtn:focus {
+    border: 1px solid #0fa !important;
+    box-shadow: none;
+}
+
+.traitsBtn:active {
+    border: 1px solid #0fa !important;
+    box-shadow: none;
+    scale: .95;
+}
+
+/* tags */
+input {
+    font-family: 'Special Elite';
+    color: white!important;
+}
+
+input.statsInput {
+    box-shadow: 0 0 3px #fff, 0 0 4px #fff,0 0 20px #0fa;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+    border: 1px solid #0fa;
+    box-shadow: none;
+}
+
+input[type='checkbox'] {
+    accent-color: #0fa;
+}
+
+input[type='checkbox']:focus {
+    box-shadow: none;
+}
+
+input#inputIp:focus {
+    box-shadow: none;
+}
+
+input.charInput {
+    max-width: 400px;
+}
+
+input.charInput:focus, input[type=number]:focus {
+    border: 1px solid #0fa;
+    box-shadow: none;
+}
+
+#selectedFile {
+    max-width: 250px;
+}
+
+.statsChecks  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.statsChecksRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statsChecksDiv {
+    padding: 0;
+}
+
+table {
+    border-radius: 5px;
+}
+
+textarea {
+    font-family: 'Special Elite';
+    color: white!important;
+    box-shadow: none;
+}
+
+textarea:focus {
+    border: 1px solid #0fa !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea#family {
+    height: 30%;
+    margin-bottom: 15px;
+}
+
+textarea#siblings {
+    height: 34%;
+}
+
+textarea#life {
+    height: 51%;
+}
+
+textarea.modalText {
+    width: 100%;
+    background-color: gray;
+    height: 100px;
+    cursor: pointer;
+}
+
+textarea.no-border-text-area {
+    border: none;
+    border-radius: 5px;
+}
+
+textarea.no-border-text-area:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+/* modals */
+.modal-content {
+    border: none;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+}
+
+.modal-lg.modal-dialog {
+    max-width: 100%;
+    margin: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.smallerModalTitle {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+/* other */
+.abilities {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.armorInput {
+    height: 25px;
+    margin:  5px;
+}
+
+.bgDiv {
+    display: flex;
+}
+
+.dropdown-menu {
+    z-index: 100;
+}
+
+.dropdown-item:active {
+    background-color: #0fa;
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 10px #0fa; 
+}
+
+.expert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    margin-top: 200px;
+}
+
+.hide {
+    display: none;
+}
+
+.hideMartialArts {
+    display: none;
+}
+
+.hidePerksRow {
+    display: none;
+}
+
+.hidePsychRow {
+    display: none;
+}
+
+.hideWeaponRow {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.ipModalRow {
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 7px #0fa; 
+}
+
+.line {
+    border-bottom: #0fa solid 2px;
+    margin-top: 25px;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+}
+
+.madeBox {
+    display: flex;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.madeStatsBox {
+    display: flex;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+#modalInfoBottom {
+    font-family: 'Special Elite';
+    text-align: center;
+    padding-top: 30px;
+    color: gray;
+    font-size: 12px;
+}
+
+.namesDiv {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.no-padding-neon {
+    padding: 0 !important;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+}
+
+.pet-table {
+    justify-content: space-between;
+}
+
+#showGeneralIP {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.skillMid {
+    width: 80px;
+}
+
+.skillNum {
+    width: 40px;
+}
+
+.skillText {
+    width: 160px;
+}
+
+.smBtns {
+    display: flex;
+}
+
+.statsRow {
+    padding: 0 10px;
+}
+
+.specialSkillText {
+    width: 140px;
+}
+
+.specialAbilityInfoBtn {
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.specialAbilityInfoBtn:active {
+    scale: 90%;
+}
+
+.textareaNotes {
+    position: absolute;
+    z-index: 100;
+}
+
+.weaponInputLg {
+    width: 150px;
+    height: 25px;
+}
+
+.weaponInputSm {
+    height: 25px;
+}
+
+.weaponInputXlg {
+    width: 200px;
+    height: 25px;
+}
+
+.withMargins {
+    margin-top: 20px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type="number"] {
+    -moz-appearance: textfield;
+} */

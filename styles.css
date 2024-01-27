@@ -1,4 +1,4 @@
-/* colors, darkGrey #212121 lightGrey #323232 darkAqua #0D7377 lightAqua #0fa*/
+/* colors, darkGrey #212121 lightGrey #323232 darkAqua #0D7377 lightAqua #ff0505*/
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Special+Elite&display=swap');
 
@@ -10,7 +10,7 @@ body {
     background: rgb(111,109,109);
     background: radial-gradient(circle, rgba(111,109,109,1) 0%, rgba(47,47,47,1) 100%);
     font-family: 'Black Ops One';
-    color: #0fa;
+    color: #ff0505;
     margin: 0;   
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ small {
 h1.title {
     font-size: 50px;
     color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff,0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff,0 0 42px #ff0505, 0 0 82px #ff0505, 0 0 92px #ff0505;
 }
 
 .armorDiv {
@@ -41,12 +41,12 @@ h1.title {
 
 .neon {
     color: #fff;
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
 }
 
 .lessNeon {
     color: #fff;
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 30px #0fa;
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 30px #ff0505;
     letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ nav.navbar {
 .ls-btn {
     font-size: 30px;
     color: #fff;
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ nav.navbar {
     background-color: white;
     margin:  35px 20px;
     padding: 5px 8px;
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
     cursor: pointer;
     color: inherit;
     border: none;
@@ -105,7 +105,7 @@ nav.navbar {
 .plusBtn {
     background-color: white;
     padding: 5px 8px;
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
     cursor: pointer;
     color: inherit;
     border: none;
@@ -134,7 +134,7 @@ nav.navbar {
     padding: 0;
     cursor: pointer;
     color: #fff;
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
 }
 
 .smPlusBtn:active {
@@ -142,12 +142,12 @@ nav.navbar {
 }
 
 .traitsBtn:focus {
-    border: 1px solid #0fa !important;
+    border: 1px solid #ff0505 !important;
     box-shadow: none;
 }
 
 .traitsBtn:active {
-    border: 1px solid #0fa !important;
+    border: 1px solid #ff0505 !important;
     box-shadow: none;
     scale: .95;
 }
@@ -159,16 +159,16 @@ input {
 }
 
 input.statsInput {
-    box-shadow: 0 0 3px #fff, 0 0 4px #fff,0 0 20px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 4px #fff,0 0 20px #ff0505;
 }
 
 input[type=text]:focus, input[type=number]:focus {
-    border: 1px solid #0fa;
+    border: 1px solid #ff0505;
     box-shadow: none;
 }
 
 input[type='checkbox'] {
-    accent-color: #0fa;
+    accent-color: #ff0505;
 }
 
 input[type='checkbox']:focus {
@@ -184,7 +184,7 @@ input.charInput {
 }
 
 input.charInput:focus, input[type=number]:focus {
-    border: 1px solid #0fa;
+    border: 1px solid #ff0505;
     box-shadow: none;
 }
 
@@ -219,7 +219,7 @@ textarea {
 }
 
 textarea:focus {
-    border: 1px solid #0fa !important;
+    border: 1px solid #ff0505 !important;
     box-shadow: none !important;
     outline: none !important;
 }
@@ -257,7 +257,7 @@ textarea.no-border-text-area:focus {
 /* modals */
 .modal-content {
     border: none;
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
 }
 
 .modal-lg.modal-dialog {
@@ -296,8 +296,8 @@ textarea.no-border-text-area:focus {
 }
 
 .dropdown-item:active {
-    background-color: #0fa;
-    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 10px #0fa; 
+    background-color: #ff0505;
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 10px #ff0505; 
 }
 
 .expert {
@@ -334,13 +334,13 @@ textarea.no-border-text-area:focus {
 }
 
 .ipModalRow {
-    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 7px #0fa; 
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 7px #ff0505; 
 }
 
 .line {
-    border-bottom: #0fa solid 2px;
+    border-bottom: #ff0505 solid 2px;
     margin-top: 25px;
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
 }
 
 .madeBox {
@@ -374,7 +374,7 @@ textarea.no-border-text-area:focus {
 
 .no-padding-neon {
     padding: 0 !important;
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #0fa;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
 }
 
 .pet-table {

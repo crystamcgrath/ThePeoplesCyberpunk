@@ -41,12 +41,12 @@ h1.title {
 
 .neon {
     color: #fff;
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
+    /*text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505; */
 }
 
 .lessNeon {
     color: #fff;
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 30px #ff0505;
+    /*text-shadow: 0 0 1px #fff, 0 0 3px #fff,0 0 30px #ff0505;*/
     letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ nav.navbar {
 .ls-btn {
     font-size: 30px;
     color: #fff;
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;
+    /*text-shadow: 0 0 3px #fff, 0 0 6px #fff,0 0 42px #ff0505;*/
     cursor: pointer;
 }
 

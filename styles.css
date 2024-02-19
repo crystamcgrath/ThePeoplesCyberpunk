@@ -28,7 +28,7 @@ small {
 h1.title {
     font-size: 50px;
     color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff,0 0 42px #ff0505, 0 0 82px #ff0505, 0 0 92px #ff0505;
+/*     text-shadow: 0 0 7px #fff, 0 0 10px #fff,0 0 42px #ff0505, 0 0 82px #ff0505, 0 0 92px #ff0505; */
 }
 
 .armorDiv {
